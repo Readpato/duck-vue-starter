@@ -1,0 +1,40 @@
+{
+  "name": "duck-vue-starter",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:scss": "stylelint \"./**/*.{css,scss,sass,vue}\"",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.57.7",
+    "@vueuse/core": "^10.6.1",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.0",
+    "@types/node": "^20.9.4",
+    "@unocss/preset-attributify": "^0.57.7",
+    "@unocss/preset-uno": "^0.57.7",
+    "@unocss/preset-web-fonts": "^0.57.7",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "cypress": "^13.6.0",
+    "eslint": "^8.54.0",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "typescript": "^5.3.2",
+    "unocss": "^0.57.7",
+    "vite": "^5.0.2",
+    "vitest": "^0.34.6",
+    "vue-tsc": "^1.8.22"
+  }
+}
