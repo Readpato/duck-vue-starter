@@ -24,7 +24,6 @@
     "@unocss/preset-uno": "^0.57.7",
     "@unocss/preset-web-fonts": "^0.57.7",
     "@vitejs/plugin-vue": "^4.5.0",
-    "cypress": "^13.6.0",
     "eslint": "^8.54.0",
     "sass": "^1.69.5",
     "stylelint": "^15.11.0",
